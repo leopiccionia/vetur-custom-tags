@@ -1,0 +1,29 @@
+{
+  "name": "vetur-custom-tags",
+  "version": "1.0.0",
+  "description": "Easily builds Vetur's framework-specific JSONs from JS objects.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "linter": "eslint --fix index.js",
+    "test": "echo \"TODO\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leopiccionia/vetur-custom-tags.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leopiccionia/vetur-custom-tags/issues"
+  },
+  "homepage": "https://github.com/leopiccionia/vetur-custom-tags#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-minify": "^0.2.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
